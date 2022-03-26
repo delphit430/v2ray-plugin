@@ -1,11 +1,11 @@
 module github.com/shadowsocks/v2ray-plugin
 
-go 1.17
+go 1.18
 
 require (
 	github.com/golang/protobuf v1.5.2
-	github.com/v2fly/v2ray-core/v5 v5.0.2
-	google.golang.org/protobuf v1.27.1
+	github.com/v2fly/v2ray-core/v5 v5.0.3
+	google.golang.org/protobuf v1.28.0
 )
 
 require (
@@ -13,9 +13,10 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/lucas-clemente/quic-go v0.24.0 // indirect
+	github.com/lucas-clemente/quic-go v0.26.0 // indirect
 	github.com/marten-seemann/qtls-go1-16 v0.1.4 // indirect
 	github.com/marten-seemann/qtls-go1-17 v0.1.0 // indirect
+	github.com/marten-seemann/qtls-go1-18 v0.1.0 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/onsi/ginkgo v1.16.4 // indirect
 	github.com/pires/go-proxyproto v0.6.1 // indirect
